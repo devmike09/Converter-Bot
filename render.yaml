@@ -7,3 +7,5 @@ services:
     envVars:
       - key: BOT_TOKEN
         value: "8631494521:AAF-pG0Hwsx274QtGuoXCgs9R9xAlFxGoIo"
+      -key: REQUIRED_CHANNEL
+      value: "@C0nver1_bot"
