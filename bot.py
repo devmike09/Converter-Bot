@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 # Environment Variables
 TOKEN = os.environ.get("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN_HERE")
-REQUIRED_CHANNEL = os.environ.get("REQUIRED_CHANNEL", "@your_channel_username") # Must include @
+REQUIRED_CHANNEL = os.environ.get("REQUIRED_CHANNEL", "@C0nver1_bot") # Must include @
 
 # Dictionary to temporarily store user files for the "download chats" feature
 user_sessions = {}
